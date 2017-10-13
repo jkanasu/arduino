@@ -1,7 +1,7 @@
 /*
   Blink123Sequence
 
-  Turns an LED on and off in the famous clapping sequence
+  Turns an LED on and off as in the famous clapping sequence
   123, 123, 1..2..3
 
   Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
@@ -16,7 +16,7 @@
 
   This example code is in the public domain.
 
-  http://www.github.com/jkanasu/arduino/Blink123Sequence
+  https://github.com/jkanasu/arduino
 */
 
 // the setup function runs once when you press reset or power the board
@@ -35,7 +35,7 @@ void loop() {
     200,150,200,150,200,150,
     0,330, // ON time is zero
     330,330,330,330,330,330,
-    0,2000 // ON time is zero
+    0,1000 // ON time is zero
     };
   for ( int i = 0 ; i < delaySequenceLength ; i = i +2){
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
