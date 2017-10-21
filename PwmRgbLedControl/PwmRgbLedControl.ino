@@ -1,5 +1,5 @@
 /*
-  Blink123Sequence
+  Rainbow color reproduction
 
   Sets the color of an RGB LED to a rainbow's VIBGYOR sequence
 
